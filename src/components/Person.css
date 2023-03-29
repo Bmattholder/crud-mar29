@@ -1,0 +1,55 @@
+.card {
+    text-align: center;
+    margin: 15px auto;
+    padding: 12px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.btn{
+    width: 30%;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: .5rem 1.25rem;
+    font-size: large;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #1e90ff;
+}
+
+.dngr{
+    width: 30%;
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: .5rem 1.25rem;
+    font-size: large;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dngr:hover {
+    background-color: #a80000;
+}
+
+.edit-input{
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 80%;
+    align-items: center;
+    margin: 1rem auto;
+    font-size: medium;
+}
+
+.edit-input:focus {
+    outline: none;
+    border-bottom: 2px solid royalblue;
+}

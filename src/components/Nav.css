@@ -1,0 +1,23 @@
+.nav {
+    background-color: #444654;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link:hover {
+    color: slategray;
+}
+
+.active-link {
+    color: slategray;
+}
